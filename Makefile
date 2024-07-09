@@ -21,3 +21,7 @@ package-install:
 .PHONY: lint
 lint:
 	poetry run flake8 brain_games
+
+.PHONY: brain-even
+brain-even:
+	poetry run brain-even
