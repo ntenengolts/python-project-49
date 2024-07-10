@@ -16,7 +16,7 @@ publish:
 
 .PHONY: package-install
 package-install:
-	python3 -m pip install --user dist/*.whl
+	python3 -m pip install --user --force-reinstall dist/*.whl
 
 .PHONY: lint
 lint:
@@ -29,3 +29,7 @@ brain-even:
 .PHONY: brain-calc
 brain-calc:
 	poetry run brain-calc
+
+.PHONY: brain-gcd
+brian-gcd:
+	poetry run brain-gcd
