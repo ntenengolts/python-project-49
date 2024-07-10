@@ -25,3 +25,7 @@ lint:
 .PHONY: brain-even
 brain-even:
 	poetry run brain-even
+
+.PHONY: brain-calc
+brain-calc:
+	poetry run brain-calc
