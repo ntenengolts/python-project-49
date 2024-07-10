@@ -31,5 +31,5 @@ brain-calc:
 	poetry run brain-calc
 
 .PHONY: brain-gcd
-brian-gcd:
+brain-gcd:
 	poetry run brain-gcd
