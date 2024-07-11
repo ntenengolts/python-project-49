@@ -34,7 +34,10 @@ def main():
             print('Correct!')
             correct_answers += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(
+                f"'{answer}' is wrong answer ;(. "
+                f"Correct answer was '{correct_answer}'."
+            )
             print(f"Let's try again, {name}!")
             correct_answers = 0
 
