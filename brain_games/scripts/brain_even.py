@@ -6,6 +6,7 @@ import prompt
 def is_even(number):
     return number % 2 == 0
 
+
 def main():
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
