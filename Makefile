@@ -37,3 +37,7 @@ brain-gcd:
 .PHONY: brain-progression
 brain-progression:
 	poetry run brain-progression
+
+.PHONY: brain-prime
+brain-prime:
+	poetry run brain-prime
