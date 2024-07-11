@@ -33,3 +33,7 @@ brain-calc:
 .PHONY: brain-gcd
 brain-gcd:
 	poetry run brain-gcd
+
+.PHONY: brain-progression
+brain-progression:
+	poetry run brain-progression
