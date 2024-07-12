@@ -26,6 +26,6 @@ def run_game(description, generate_round):
                 f"Correct answer was '{correct_answer}'."
             )
             print(f"Let's try again, {name}!")
-            correct_answers = 0
+            return
 
     print(f'Congratulations, {name}!')
