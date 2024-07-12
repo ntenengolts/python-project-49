@@ -1,3 +1,6 @@
 .venv
 brain_games/scripts/brain_calc2.py
 brain_games/scripts/brain_even2.py
+brain_games/scripts/brain_gcd2.py
+brain_games/scripts/brain_prime2.py
+brain_games/scripts/brain_progression2.py
