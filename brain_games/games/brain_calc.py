@@ -24,4 +24,4 @@ def generate_round():
 
 
 def main():
-    run_game(globals())
+    run_game(DESCRIPTION, generate_round)

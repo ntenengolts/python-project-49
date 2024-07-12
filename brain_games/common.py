@@ -8,12 +8,12 @@ def welcome_user():
     return name
 
 
-def run_game(game):
+def run_game(description, generate_round):
     name = welcome_user()
-    print(game['DESCRIPTION'])
+    print(description)
     correct_answers = 0
     while correct_answers < 3:
-        question, correct_answer = game['generate_round']()
+        question, correct_answer = generate_round()
         print(f'Question: {question}')
         answer = prompt.string('You answer: ').strip().lower()
 
