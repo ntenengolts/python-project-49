@@ -17,7 +17,7 @@ def generate_round():
 
     numbers = f'{num1} {num2}'
     correct_answer = str(gcd(num1, num2))
-    return numbers, str(correct_answer)
+    return numbers, correct_answer
 
 
 def main():
