@@ -5,6 +5,6 @@ brain_games/scripts/brain_gcd2.py
 brain_games/scripts/brain_prime2.py
 brain_games/scripts/brain_progression2.py
 brain_games/common2.py
-brain_games/__pycache__/
-brain_games/scripts/__pycache__/
+brain_games/__pycache__
+brain_games/scripts/__pycache__
 dist/
