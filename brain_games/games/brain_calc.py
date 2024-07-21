@@ -5,6 +5,15 @@ from brain_games.common import run_game
 DESCRIPTION = 'What is the result of the expression?'
 
 
+def calculate(num1, num2, operator):
+    if operator == '+':
+        return num1 + num2
+    elif operator == '-':
+        return num1 - num2
+    elif operator == '*':
+        return num1 * num2
+
+
 def generate_round():
     num1 = randint(1, 100)
     num2 = randint(1, 100)
@@ -14,12 +23,7 @@ def generate_round():
 
     operator = choice(['+', '-', '*'])
     expression = f'{num1} {operator} {num2}'
-    if operator == '+':
-        correct_answer = num1 + num2
-    elif operator == '-':
-        correct_answer = num1 - num2
-    elif operator == '*':
-        correct_answer = num1 * num2
+    correct_answer = calculate(num1, num2, operator)
     return expression, str(correct_answer)
 
 
