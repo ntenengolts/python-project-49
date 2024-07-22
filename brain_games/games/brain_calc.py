@@ -1,5 +1,4 @@
 from random import randint, choice
-from brain_games.common import run_game
 
 
 DESCRIPTION = 'What is the result of the expression?'
@@ -25,7 +24,3 @@ def generate_round():
     expression = f'{num1} {operator} {num2}'
     correct_answer = calculate(num1, num2, operator)
     return expression, str(correct_answer)
-
-
-def main():
-    run_game(DESCRIPTION, generate_round)

@@ -1,5 +1,4 @@
 from random import randint
-from brain_games.common import run_game
 
 
 DESCRIPTION = 'What number is missing in the progression?'
@@ -19,7 +18,3 @@ def generate_round():
     progression[hidden_index] = '..'
     question = ' '.join(map(str, progression))
     return question, correct_answer
-
-
-def main():
-    run_game(DESCRIPTION, generate_round)

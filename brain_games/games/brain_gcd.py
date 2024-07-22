@@ -1,5 +1,4 @@
 from random import randint
-from brain_games.common import run_game
 
 
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
@@ -18,7 +17,3 @@ def generate_round():
     numbers = f'{num1} {num2}'
     correct_answer = str(gcd(num1, num2))
     return numbers, correct_answer
-
-
-def main():
-    run_game(DESCRIPTION, generate_round)
