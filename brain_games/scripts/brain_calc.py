@@ -3,6 +3,9 @@ from brain_games.games import brain_calc
 
 
 def main():
+    """
+    Run the Brain Calc game.
+    """
     run_game(brain_calc)
 
 

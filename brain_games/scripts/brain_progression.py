@@ -3,6 +3,9 @@ from brain_games.games import brain_progression
 
 
 def main():
+    """
+    Run the Brain Progression game.
+    """
     run_game(brain_progression)
 
 

@@ -3,6 +3,9 @@ from brain_games.games import brain_even
 
 
 def main():
+    """
+    Run the Brain Even game.
+    """
     run_game(brain_even)
 
 

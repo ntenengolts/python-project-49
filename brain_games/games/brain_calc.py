@@ -5,6 +5,17 @@ DESCRIPTION = 'What is the result of the expression?'
 
 
 def calculate(num1, num2, operator):
+    """
+    Calculate the result of math expression.
+
+    Args:
+        num1 (int): The first number.
+        num2 (int): The second number.
+        operator (str): '+', '-' or '*'.
+
+    Returns:
+        int: The result of the expression.
+    """
     if operator == '+':
         return num1 + num2
     elif operator == '-':
@@ -14,6 +25,12 @@ def calculate(num1, num2, operator):
 
 
 def generate_round():
+    """
+    Generates a math expression (question) and correct answer.
+
+    tuple: A tuple contain the expression as a string
+        and the correct answer as a string.
+    """
     num1 = randint(1, 100)
     num2 = randint(1, 100)
 

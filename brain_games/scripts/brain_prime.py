@@ -3,6 +3,9 @@ from brain_games.games import brain_prime
 
 
 def main():
+    """
+    Run the Brain Prime game.
+    """
     run_game(brain_prime)
 
 

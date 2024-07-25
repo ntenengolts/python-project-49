@@ -3,6 +3,9 @@ from brain_games.games import brain_gcd
 
 
 def main():
+    """
+    Run the Brain GCD game.
+    """
     run_game(brain_gcd)
 
 

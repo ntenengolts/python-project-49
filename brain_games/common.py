@@ -2,6 +2,15 @@ import prompt
 
 
 def welcome_user():
+    """
+    Greets the user and prompts them to enter their name.
+
+    Prints a welcome message and asks for the user's name,
+        then greets the user by name.
+
+    Returns:
+        str: The name of the user.
+    """
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!")
@@ -9,6 +18,19 @@ def welcome_user():
 
 
 def run_game(game):
+    """
+    Runs a game session.
+
+    The game session includes greeting the user,
+    displaying the game description,
+    asking questions, checking answers,
+    and tracking the number of correct answers.
+    The game ends after three correct answers or one incorrect answer.
+
+    Args:
+        game (module): The game module which contains DESCRIPTION
+            and generate_round function.
+    """
     name = welcome_user()
     print(game.DESCRIPTION)
     correct_answers = 0
