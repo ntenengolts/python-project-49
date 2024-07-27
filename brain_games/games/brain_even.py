@@ -30,4 +30,4 @@ def generate_round():
     number = randint(1, 100)
     question = str(number)
     correct_answer = 'yes' if is_even(number) else 'no'
-    return question, str(correct_answer)
+    return question, correct_answer

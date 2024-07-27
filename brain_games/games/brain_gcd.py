@@ -36,5 +36,5 @@ def generate_round():
     num2 = randint(1, 100)
 
     numbers = f'{num1} {num2}'
-    correct_answer = str(gcd(num1, num2))
+    correct_answer = gcd(num1, num2)
     return numbers, correct_answer

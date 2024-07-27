@@ -34,10 +34,10 @@ def generate_round():
     num1 = randint(1, 100)
     num2 = randint(1, 100)
 
-    if num1 < num2:
-        num1, num2 = num2, num1
+#    if num1 < num2:
+#        num1, num2 = num2, num1
 
     operator = choice(['+', '-', '*'])
     expression = f'{num1} {operator} {num2}'
     correct_answer = calculate(num1, num2, operator)
-    return expression, str(correct_answer)
+    return expression, correct_answer
